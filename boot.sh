@@ -1,6 +1,7 @@
 sudo apt-get update
-sudo apt-get install -y node
-sudo apt-get install -y npm
 
-npm install npm@latest -g
-
+cd ~
+curl -sL https://deb.nodesource.com/setup_6.x -o nodesource_setup.sh
+sudo bash nodesource_setup.sh
+sudo apt-get install -y nodejs
+sudo apt-get install -y build-essential
